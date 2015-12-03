@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualTerminal", "VirtualTerminal\VirtualTerminal.csproj", "{5F301B3B-7509-418F-86A5-5188DF6B6A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestVirtualTerminal", "UnitTestVirtualTerminal\UnitTestVirtualTerminal.csproj", "{CC40F328-B12C-43B5-9CA1-E3341650FBD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{7012A383-C951-4FBD-9FCF-4020520D3275}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\DevExpress.Data.v11.2.dll = Lib\DevExpress.Data.v11.2.dll
+		Lib\DevExpress.Utils.v11.2.dll = Lib\DevExpress.Utils.v11.2.dll
+		Lib\DevExpress.XtraEditors.v11.2.dll = Lib\DevExpress.XtraEditors.v11.2.dll
+		Lib\DevExpress.XtraGrid.v11.2.dll = Lib\DevExpress.XtraGrid.v11.2.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F301B3B-7509-418F-86A5-5188DF6B6A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F301B3B-7509-418F-86A5-5188DF6B6A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F301B3B-7509-418F-86A5-5188DF6B6A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F301B3B-7509-418F-86A5-5188DF6B6A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC40F328-B12C-43B5-9CA1-E3341650FBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC40F328-B12C-43B5-9CA1-E3341650FBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC40F328-B12C-43B5-9CA1-E3341650FBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC40F328-B12C-43B5-9CA1-E3341650FBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
